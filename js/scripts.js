@@ -5,10 +5,10 @@ $(document).ready(function () {
 
     console.log('asd', checkboxes, listItemsLength);
 
-    $(':checkbox').change(function() {
+    $('[type=checkbox]').change(function() {
 
         filterSelected = [];
-        
+
         for (i=0; i<checkboxes; i++) {
             var checked =  $(':checkbox').eq(i).prop('checked');
             
