@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <main>
+
+        <form method="post">
+          <fieldset>
+            <legend>Type</legend>
+            <input type="checkbox" name="animal" value="city" />city <br />
+              <input type="checkbox" name="animal" value="island" />island <br />
+              <input type="checkbox" name="animal" value="village" />village<br />
+          </fieldset>
+          <fieldset>
+            <legend>Sports</legend>
+                    
+              <input type="checkbox" name="animal" value="ice-hockey" />ice-hockey <br />
+              <input type="checkbox" name="animal" value="tennis" />tennis<br />
+              <input type="checkbox" name="animal" value="golf" />golf<br />
+          </fieldset>
+        </form>
+        
+        <ul>
+            <li data-category="golf island">golf island</li>
+            <li data-category="ice-hockey city">ice-hockey city</li>
+            <li data-category="golf village">golf village</li>
+            <li data-category="island">island</li>
+            <li data-category="tennis island">tennis island</li>
+            <li data-category="tennis village">tennis village</li>
+            <li data-category="ice-hockey tennis island">ice-hockey tennis island</li>
+            <li data-category="golf city">golf city</li>
+            <li data-category="village">village</li>
+            <li data-category="tennis village">tennis village</li>
+            <li data-category="golf tennis island">golf tennis island</li>
+        </ul>
+
+    </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
